@@ -18,8 +18,10 @@
                         <hr class="style-two">
                     </div>
                     <div class="col-3">
-                        <input class="searchPhone" type="text" value="請輸入聯絡人姓名或手機">
+                        <input class="searchPhone" type="text" [(ngModel)]="phoneNumber">
+                        <button (click)=doGet()>get</button>
                     </div>
+                    
                 </div>
                 <!-- !-- area title -- -->
                 <div class="row">
@@ -42,7 +44,7 @@
                         <p>1234</p>
                     </div>
                     <div class="col-3">
-                        <p>1234</p>
+                        <p></p>
                     </div>
                 </div>
 

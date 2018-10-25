@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "phones": [
+    {
+      "id": 1,
+      "name": "chin",
+      "phone": "0931347543"
+    },
+    {
+      "id": 2,
+      "body": "Lin",
+      "phone": "0931347543"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
